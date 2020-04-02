@@ -1,9 +1,8 @@
-a = 10
-b = 20
-c = True
-def zadaniedomowe (a,b,c):
-    if c == False:
-        print(a - b)
-    else:
-        print (a + b)
-zadaniedomowe(a,b,c)
+def zadanie_domowe(a,b,c):
+ if (c >0) == True:
+        print(a+b)
+ else:
+        print(a-b)
+
+print(zadanie_domowe(2,5,(-1)))
+
