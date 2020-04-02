@@ -1,8 +1,7 @@
 def zadanie_domowe(a,b,c):
- if (c >0) == True:
+ if c:
         print(a+b)
  else:
         print(a-b)
 
-print(zadanie_domowe(2,5,(-1)))
-
+print(zadanie_domowe(2,5,()))
